@@ -1,0 +1,21 @@
+
+ HOW TO USE THE SRTSHIFT PYTHON SCRIPT TO SHIFT SUBTITLES IN A SRT FILE
+========================================================================
+
+usage: srtShift.py [-h] [-i INITIALDELAY] [-f FINALDELAY] srtFile
+
+positional arguments:
+  srtFile               name of subtitle srt file (without type '.srt')
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INITIALDELAY, --initialDelay INITIALDELAY
+                        initial delay, in seconds : a positive REAL NUMBER
+                        (e.g. 5.0 for 5 seconds) advances subtitles, a
+                        negative one (e.g. -5.0) delays them
+  -f FINALDELAY, --finalDelay FINALDELAY
+                        final delay, in seconds : a positive REAL NUMBER (e.g.
+                        9.0 for 9 seconds) advances subtitles, a negative one
+                        (e.g. -9.0) delays them
+
+
